@@ -1,54 +1,86 @@
-body{
-    background-color: rgb(238, 238, 238);
-    color: white;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 1rem;
 }
 
-a{
-    color: rgb(55, 55, 55);
+a {
+  cursor: pointer;
 }
 
-a:houver{
-    color: #0000CD;
-}
-img{
-    width: 80px;
+a {
+  color: rgb(55, 55, 55);
 }
 
-
-
-h1{
-    color: black;
-    font-weight: 200px;
+a:houver {
+  color: #0000cd;
 }
-p{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-   }
-
-
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+img {
+  width: 80px;
 }
 
-#title{
-    flex-direction: column;
-    line-height: 10px;
-    
+h1 {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-li{
-    display: inline-block;
-    margin: 20px;
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinslight;
 }
 
+header {
+  display: flex;
+  height: 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+}
 
-footer{
-    background-color: blue;
-    color: white;
+header a {
+  font-weight: bold;
+}
+
+header #inscreva-se-btn {
+  background-color: aqua;
+  color: blue;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 1rem 0.6rem;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+main {
+}
+
+main #hero {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding-block: 60px;
+  text-align: center;
+}
+
+main #hero p {
+  text-align: center;
+  margin: 2rem auto 0;
+}
+
+footer {
+  background-color: blue;
+  color: white;
 }
