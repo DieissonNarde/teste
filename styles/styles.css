@@ -6,6 +6,17 @@
   font-size: 1rem;
 }
 
+.container {
+  padding: 0 4%;
+  max-width: 80rem;
+  margin: 80px auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
 a {
   cursor: pointer;
 }
@@ -46,12 +57,13 @@ header a {
   font-weight: bold;
 }
 
-header #inscreva-se-btn {
+.btn {
   background-color: aqua;
   color: blue;
   font-weight: bold;
   border-radius: 8px;
-  padding: 1rem 0.6rem;
+  padding: 1rem 1.4rem;
+  border: none;
 }
 
 #title {
@@ -75,9 +87,52 @@ main #hero {
   text-align: center;
 }
 
-main #hero p {
+main #hero p,
+main #section4 p {
   text-align: center;
   margin: 2rem auto 0;
+}
+
+main #hero img {
+  width: 25rem;
+}
+
+main .section-text {
+  max-width: 560px;
+}
+
+main .section-text h2,
+main #section4 h2 {
+  font-size: 2rem;
+}
+
+main .section-text p {
+  margin-block: 2rem;
+  font-size: 1.4rem;
+}
+
+main .section-img img {
+  width: 20rem;
+}
+
+main #section4 {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding-block: 60px;
+  text-align: center;
+}
+
+main #section4 p {
+  font-size: 1.4rem;
+}
+
+main #section4 button {
+  margin: 3rem 0;
+}
+
+main #section4 img {
+  width: 40rem;
 }
 
 footer {
